@@ -1,4 +1,4 @@
-Name: Rhean Keith V. Zabate
+Name: John Nino S. Gellica
 Section: 2E
 ## Console Output
 
@@ -6,28 +6,31 @@ Section: 2E
 
 
 
-Toyota Corolla 2020
-Brand: Toyota
-Model: Corolla
-Year: 2020
-Age: 6
+# Lab 4 - Encapsulation
+
+Name: GellicaJohnNinoS
+Section: 2E
+
+## Console Output
+
+La Ferrari, Spyder Ferrari, 2023
+Age: 3
 Vintage: false
 
-Ford Mustang 1965
-Brand: Ford
-Model: Mustang
-Year: 1965
-Age: 61
+Tesla, Underwater Tesla, 2021
+Age: 5
+Vintage: false
+
+Koenigsegg, Geokoen, 1978
+Age: 48
 Vintage: true
 
-Honda Civic 2015
-Brand: Honda
-Model: Civic
-Year: 2015
-Age: 11
-Vintage: false
+Getters:
+Brand: La Ferrari
+Model: Spyder Ferrari
+Year: 2023
 
---- setYear Tests ---
+setYear Tests:
 setYear(2000): true
 Year: 2000
 Age: 26
@@ -39,9 +42,7 @@ Year: 2000
 setYear(2027): false
 Year: 2000
 
---- Constructor Tests ---
-New vehicle with year 1885
-Initial year is 2026
+Constructor Validation:
+Vehicle with year 1885: 2026
+Vehicle with year 2027: 2026
 
-New vehicle with year 2027
-Initial year is 2026
