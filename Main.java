@@ -1,4 +1,11 @@
 public class Main {
+
+   public static void serviceItem(Serviceable item) {
+    item.performService();
+
+    System.out.println("Needs Service: " + item.needsService());
+    }
+
     public static void printDetails(Vehicle vehicle){
         vehicle.displayInfo();
         
@@ -47,6 +54,20 @@ public class Main {
 
         for(Vehicle currentVehicle : vehicles){
             printDetails(currentVehicle);
+            System.out.println();
+        }
+        
+        System.out.println("\n--- 4. Interface Polymorphism ---");
+
+        Serviceable[] serviceItems = {
+            new Car("Honda", "Civic", 2023, 4),
+            new Motorcycle("Kawasaki", "Ninja", 2015, "Manual"),
+            new Truck("Ford", "F-150", 2020, 6),
+            new Printer()
+         };
+
+         for (Serviceable item : serviceItems) {
+            serviceItem(item);
             System.out.println();
         }
     }
