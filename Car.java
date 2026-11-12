@@ -43,7 +43,7 @@ public class Car extends Vehicle implements Serviceable {
         System.out.println("Number of Doors: " + numberOfDoors);
     }
     @Override
-   public void performService() {
+   public void service() {
     System.out.println("Car is being serviced.");
    }
 

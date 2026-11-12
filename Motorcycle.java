@@ -41,7 +41,7 @@ public class Motorcycle extends Vehicle implements Serviceable {
         System.out.println("Engine Type: " + engineType);
     }
     @Override
-    public void performService() {
+    public void service() {
     System.out.println("Motorcycle is being serviced.");
    }
 

@@ -42,7 +42,7 @@ public class Truck extends Vehicle implements Serviceable {
         System.out.println("Number of Wheels: " + numberOfWheels);
     }
     @Override
-   public void performService() {
+   public void service() {
     System.out.println("Truck is being serviced.");
     }
 

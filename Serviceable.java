@@ -1,5 +1,4 @@
-
 public interface Serviceable {
-    void performService();
+    void service();
     boolean needsService();
 }

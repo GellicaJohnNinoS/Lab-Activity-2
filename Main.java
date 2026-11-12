@@ -1,7 +1,7 @@
 public class Main {
 
    public static void serviceItem(Serviceable item) {
-    item.performService();
+    item.service();
 
     System.out.println("Needs Service: " + item.needsService());
     }
